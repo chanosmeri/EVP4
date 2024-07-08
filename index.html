@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web con Bootstrap</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/camisetas-temporada-2023-24-bundesliga.webp" alt="Primera diapositiva" style="height: 500px; object-fit: cover; ">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/camisetas-temporada-2023-24-premier-league.webp" alt="Segunda diapositiva" style="height: 500px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/la-liga-equipaciones-2023-2024-zaq.webp" alt="Tercera diapositiva" style="height: 500px; object-fit: cover;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-1">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Feature</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="display-2">Camisetas de Fútbol</h1>
+        <p>"Bienvenido a nuestra tienda, te invitamos a descubrir una amplia gama de camisetas de fútbol de primera calidad. Desde los legendarios equipos de clubes hasta las emocionantes selecciones nacionales, nuestra colección ofrece autenticidad y estilo para cada aficionado al fútbol. Con productos que reflejan la pasión por este deporte, encontrarás la camiseta perfecta para representar con orgullo los colores de tu equipo favorito. Ya sea para el estadio, la calle o la tribuna, nuestra es tu destino definitivo para adquirir camisetas que celebran la grandeza del fútbol mundial. Explora nuestra tienda y únete a la comunidad de fanáticos apasionados hoy mismo."</p>
+        <button class="btn btn-primary">Más Información</button>
+
+        <div class="card-deck mt-4">
+            <div class="card text-center bg-dark">
+                <img src="./img/maxresdefault.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Camisetas de la Premier League</h5>
+                    <p class="card-text">Compra camisetas oficiales de la Premier League en nuestra tienda! Ofrecemos camisetas de equipos como Manchester United, Liverpool, Chelsea, y más, con opción de personalización. Disponibles en varias tallas, envíos rápidos y precios competitivos. ¡Haz tu pedido hoy y muestra tu pasión por el fútbol inglés.</p>
+                    <a href="#" class="btn btn-primary">Compra Aquí</a>
+                </div>
+            </div>
+            <div class="card text-center bg-dark">
+                <img src="./img/maxresdefault (1).jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Camisetas de LaLiga</h5>
+                    <p class="card-text">Compra camisetas oficiales de LaLiga en nuestra tienda! Ofrecemos camisetas de equipos como Real Madrid, FC Barcelona y Atlético de Madrid, con opción de personalización. Disponibles en varias tallas, envíos rápidos y precios competitivos. ¡Haz tu pedido hoy y muestra tu pasión por el fútbol.</p>
+                    <a href="#" class="btn btn-primary">Compra Aquí</a>
+                </div>
+            </div>
+            <div class="card text-center bg-dark">
+                <img src="./img/maxresdefault (2).jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Camisetas de la Bundesliga</h5>
+                    <p class="card-text">Compra camisetas oficiales de la Bundesliga en nuestra tienda! Ofrecemos camisetas de equipos como Bayern Munich, Borussia Dortmund, RB Leipzig, y más, con opción de personalización. Disponibles en varias tallas, envíos rápidos y precios competitivos. ¡Haz tu pedido hoy y muestra tu pasión por el fútbol alemán.</p>
+                    <a href="#" class="btn btn-primary">Compra Aquí</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="./img/2020294707438-6.jpg" alt="Datatables desde cero" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="display-2">Términos y Coindiciones</h2>
+                <p>"Al realizar una compra en nuestra tienda, aceptas los siguientes términos y condiciones: Todas las transacciones están sujetas a disponibilidad de stock. Nos reservamos el derecho de cancelar pedidos o modificar productos en caso de errores tipográficos, inexactitudes o cambios imprevistos en inventario. Los precios están en soles y pueden estar sujetos a cambios sin previo aviso.
+
+                    Los tiempos de envío pueden variar dependiendo de la ubicación y la disponibilidad del producto. Nos esforzamos por cumplir con los plazos de entrega indicados, pero no podemos garantizar fechas específicas de entrega. Los costos de envío se calcularán al finalizar la compra y pueden variar según la ubicación y el método de envío seleccionado.
+                    
+                    Ofrecemos devoluciones y cambios dentro de la primera semana a la recepción del producto, siempre que esté en su estado original y con etiquetas intactas. Los costos de envío de devolución corren por cuenta del cliente, a menos que el producto esté defectuoso o haya sido enviado incorrectamente por nuestra parte.
+                    
+                    Para más detalles sobre nuestras políticas de privacidad y seguridad, visita nuestra sección de Privacidad. Al usar nuestro sitio web, aceptas nuestras prácticas de manejo de información según se describe en dicha sección.
+                    
+                    Nos reservamos el derecho de modificar estos términos y condiciones en cualquier momento sin previo aviso. Te recomendamos revisar regularmente esta sección para estar al tanto de cualquier cambio."</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <img src="./img/banner1.jpg" alt="Flask Login" class="img-fluid mb-5">
+            </div>
+        </div>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
